@@ -1,0 +1,9 @@
+name: GoldDigger
+main: com.wasteofplastic.golddigger.GoldDigger
+version: 0.1
+description: Turns stone into gold ingots!
+author: tastybento
+commands:
+    digdig:
+        description: Makes stone to dig
+
