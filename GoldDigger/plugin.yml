@@ -1,6 +1,6 @@
 name: GoldDigger
 main: com.wasteofplastic.golddigger.GoldDigger
-version: {$version}
+version: 0.0.1
 description: Turns stone into gold ingots!
 author: tastybento
 commands:

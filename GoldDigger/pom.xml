@@ -7,7 +7,7 @@
 	<name>GoldDigger</name>
 	<description>Tutorial plugin for Bukkit</description>
 	<build>
-		<defaultGoal>clean package install</defaultGoal>
+		<defaultGoal>package install</defaultGoal>
 		<sourceDirectory>src</sourceDirectory>
 		<finalName>golddigger</finalName>
 		<plugins>
@@ -20,6 +20,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+
 	</build>
 	<dependencies>
 		<dependency>
@@ -31,7 +32,7 @@
 	<repositories>
 		<repository>
 			<id>spigot-repo</id>
-			<url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
 	</repositories>
 </project>
