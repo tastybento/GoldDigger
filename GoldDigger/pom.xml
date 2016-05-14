@@ -4,12 +4,23 @@
 	<groupId>GoldDigger</groupId>
 	<artifactId>GoldDigger</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>GoldDigger</name>
 	<description>Tutorial plugin for Bukkit</description>
 	<build>
 		<defaultGoal>package install</defaultGoal>
-		<sourceDirectory>src</sourceDirectory>
 		<finalName>golddigger</finalName>
+		<sourceDirectory>${basedir}/src/</sourceDirectory>
+		      <resources>
+            <resource>
+                <targetPath>.</targetPath>
+                <filtering>true</filtering>
+                <directory>${basedir}</directory>
+                <includes>
+                    <include>*.yml</include>
+                </includes>
+            </resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>

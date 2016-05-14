@@ -12,7 +12,6 @@ import org.bukkit.entity.Player;
 
 public class digCommand implements CommandExecutor {
 
-    @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 	// Commands can come from the console or players
 	// command - the registered command
